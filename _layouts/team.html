@@ -6,8 +6,13 @@ layout: default
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="team team-single">
+        <div class="team-image">
+            <img alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
+        </div>        
         <h1 class="title">{{page.title}}</h1>
         <div class="content">{{content}}</div>
+        <br>
+        <a target="_blank" href="{{ team.linkedinurl }}">More Info</a>
       </div>
     </div>
   </div>
