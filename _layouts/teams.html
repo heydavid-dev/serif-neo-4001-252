@@ -33,7 +33,7 @@ bodyClass: page-team-list
                     <h2 class="team-name"><a href="{{ team.url | prepend: site.baseurl | prepend: site.url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                    <a target="_blank" href="{{ team.linkedinurl }}">{{ team.linkedinurl }}</a>
                     {% endif %}
                 </div>
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
