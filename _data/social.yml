@@ -1,8 +1,8 @@
 ---
 main:
-- name: Github
-  link: https://github.com/
+- name: Google
+  link: https://google.com/
   image: "/images/social/github.png"
-- name: Twitter
-  link: https://twitter.com/
+- name: Google
+  link: https://google.com/
   image: "/images/social/twitter.png"
